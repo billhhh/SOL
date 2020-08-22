@@ -1,10 +1,10 @@
-==========================================================
+
 SOL - A Library for Scalable Online Learning Algorithms
-=========================================================
+============================================
 
 
 About SOL
-===========================================================================
+====================================================
 SOL is an open-source library for scalable online learning with high-dimensional data. The library provides a family of regular and sparse online learning algorithms for large-scale binary and multi-class classification tasks with high efficiency, scalability, portability, and extensibility. We provide easy-to-use command-line tools, python wrappers and library calls for users and developers, and comprehensive documents for both beginners and advanced users. SOL is not only a machine learning toolbox, but also a comprehensive experimental platform for online learning research. Experiments demonstrate that SOL is highly efficient and scalable for large-scale learning with high-dimensional data.
 
 Specifically, SOL consists of a family of:
@@ -309,14 +309,26 @@ License and Citation
 
 SOL is released under the Apache 2.0 open source license.
 
-Please cite SOL in your publications if it helps your research:
+SOL has been published as Original Software Publication in Neurocomputing Journal
+
+Volume 260, 18 October 2017
+
+"SOL: A library for scalable online learning algorithms"
+
+Yue Wu, Steven C.H. Hoi, Chenghao Liu , Jing Lu, Doyen Sahoo, Nenghai Yu,
+
+https://doi.org/10.1016/j.neucom.2017.03.077
+
+Please cite SOL in your publications if it helps:
 
 ```
-@article{libsol2016,
+@article{sol2017,
   title={SOL: A Library for Scalable Online Learning Algorithms},
   author={Yue Wu, Steven C.H. Hoi, Chenghao Liu, Jing Lu, Doyen Sahoo, Nenghai Yu},
-  journal={SMU Technical Report (SMU-TR-2016-10-27)},
-  year={2016}
+  journal={Neurocomputing},
+  vol = {260},
+  pages = {9--12},
+  year={2017}
 }
 ```
 
